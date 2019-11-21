@@ -59,7 +59,7 @@ void Rectangle::PrintCorners()
 {
 	setlocale(LC_ALL, "Rus");
 
-	cout << "Âîò òàê íàøè êîîðäèíàòû õðàíÿòñÿ â map:" << endl;
+	cout << "Ã‚Ã®Ã² Ã²Ã Ãª Ã­Ã Ã¸Ã¨ ÃªÃ®Ã®Ã°Ã¤Ã¨Ã­Ã Ã²Ã» ÃµÃ°Ã Ã­Ã¿Ã²Ã±Ã¿ Ã¢ map:" << endl;
 
 	for (auto it = coordinateMap.begin(); it != coordinateMap.end(); ++it)
 	{
@@ -67,7 +67,7 @@ void Rectangle::PrintCorners()
 	}
 
 	cout << endl;
-	cout << "Âîò òàê âûâåäåì óãëû ñ èõ êîîðäèíàòàìè äëÿ þçåðà: " << endl;
+	cout << "Ã‚Ã®Ã² Ã²Ã Ãª Ã¢Ã»Ã¢Ã¥Ã¤Ã¥Ã¬ Ã³Ã£Ã«Ã» Ã± Ã¨Ãµ ÃªÃ®Ã®Ã°Ã¤Ã¨Ã­Ã Ã²Ã Ã¬Ã¨ Ã¤Ã«Ã¿ Ã¾Ã§Ã¥Ã°Ã : " << endl;
 	for (auto it = coordinateMap.begin(); it != coordinateMap.end(); ++it)
 	{
 		cout << (it->first).substr(0, 1) << "(" << coordinateMap.at(it->first) << ",";
